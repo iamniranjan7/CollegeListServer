@@ -14,7 +14,7 @@ const cookieParser = require("cookie-parser");
 // );
 app.use(
   cors({
-    origin: "https://bejewelled-bunny-6ed80e.netlify.app/",
+    origin: "https://bejewelled-bunny-6ed80e.netlify.app",
     credentials: true,
     secure: true
   })
