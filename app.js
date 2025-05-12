@@ -14,7 +14,7 @@ const cookieParser = require("cookie-parser");
 // );
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: "https://delicate-choux-378203.netlify.app",
     credentials: true,
     secure: true
   })
